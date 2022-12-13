@@ -30,13 +30,7 @@ import iphone3 from "./rrphotos/iphone3.png"
 
 const Redesign = () => {
   const [rr, setRR] = useState(false);
-  
-  var top = document.getElementById("top1");
-  var id = document.getElementById("part-1");
-  var vid = document.getElementById("part-2");
-  var res = document.getElementById("part-3");
-  var take = document.getElementById("part-4");
-
+ 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (window.scrollY <= 420) {
