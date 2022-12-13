@@ -4,7 +4,7 @@ import hamburger from "../images/hamburger.png"
 import { useState } from "react";
 import x from "../images/close.png"
 import namehere from "../images/namehere.png"
-import LittleLlama from "../images/llama.png"
+import llama from "../images/llama.png"
 import { Link } from "react-router-dom";
 
 
