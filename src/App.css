@@ -1,5 +1,18 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Title";   /*Can be any text*/
+  src: local("AirbnbCerealRegular"),
+    url("./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Paragraph";   /*Can be any text*/
+  src: local("AirbnbCerealRegular"),
+    url("./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf") format("truetype");
 }
 
 .App-logo {
@@ -28,6 +41,30 @@
   color: #61dafb;
 }
 
+h1{
+  font-family: 'Title';
+  font-size: 3rem;
+}
+
+h2{
+  font-family: 'Title';
+  size: 2rem;
+}
+
+p{
+  font-family: 'Paragraph';
+  font-size: larger;
+  line-height: 2rem;
+}
+
+.photos{
+  width: 40%;
+}
+
+.text{
+  width: 60%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +72,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content{
+  margin-left: 3rem;
 }
