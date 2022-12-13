@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import "../styles/about.css"
 import me from "../images/IMG_0026.jpg"
 import mehidden from "../images/IMG_0759.jpg"
+import { Link } from "react-router-dom";
 
 //icons
 import email from "../images/email.png"
