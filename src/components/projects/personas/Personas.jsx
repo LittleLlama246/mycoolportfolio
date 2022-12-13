@@ -20,6 +20,13 @@ import sb5 from "./personasPhotos/personaspt5.jpg"
 
 const Personas = () => {
   const [ps, setPS ] = useState(false);
+  
+  var home = document.getElementById("top1");
+  var prep = document.getElementById("part-1");
+  var obs = document.getElementById("part-2");
+  var pers = document.getElementById("part-3");
+  var story = document.getElementById("part-4");  
+  var take = document.getElementById("part-5");
 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
@@ -37,12 +44,12 @@ const Personas = () => {
       <h1 id="top1">Personas & Storyboarding</h1>
       <p id="top2">The goal of this assignment was to step into a users shoes by observing users interacting with an interface, interviewing users about their experiences and illustrating a storyboard for one of my user personas.</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href="#top">Home</a></li>
-            <li class="nav"><a href="#part-1">Preparation</a></li>
-            <li class="nav"><a href="#part-2">Recording Observations</a></li>
-            <li class="nav"><a href="#part-3">Personas</a></li>
-            <li class="nav"><a href="#part-4">Storyboards</a></li>
-            <li class="nav"><a href="#final">Takeaways</a></li>
+            <li class="nav"><a onClick={() => home.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
+            <li class="nav"><a onClick={() => prep.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Preparation</a></li>
+            <li class="nav"><a onClick={() => obs.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Recording Observations</a></li>
+            <li class="nav"><a onClick={() => pers.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Personas</a></li>
+            <li class="nav"><a onClick={() => story.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Storyboards</a></li>
+            <li class="nav"><a onClick={() => take.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Takeaways</a></li>
       </div>
 
       <div id="intro">
