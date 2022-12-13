@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar";
-import { HashRouter, Routes, Route, Navigate, Router } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //main pages
 import About from './components/About';
@@ -17,8 +17,7 @@ import Ford from './components/projects/ford/Ford';
 function App() {
   return (
     <div className="App">
-     {/* <Navbar/> */}
-     <Router>
+     <HashRouter>
                 <Routes>
                     <Route path="/" element={<About/>} />
                     <Route path="/designWork" element={<DesignWork/>} />
@@ -31,7 +30,7 @@ function App() {
 
                     <Route path="*" element={<Navigate to={"/"} replace />} />
                 </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
