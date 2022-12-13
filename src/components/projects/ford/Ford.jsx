@@ -37,7 +37,7 @@ const Ford = () => {
             <li class="nav"><Link to="#part-1">The Problem</Link></li>
             <li class="nav"><Link to="#part-2">Current Methods</Link></li>
             <li class="nav"><Link to="#part-3">Our Solution</Link></li>
-            <li class="nav"><Link to="#part-4">Take Aways</Link></li>
+            <li class="nav"><Link to="#part-4">Takeaways</Link></li>
       </div>
 
       <div id="overview">
@@ -184,7 +184,7 @@ const Ford = () => {
       </div>
 
       <div id="part-4">
-        <h2 class="pTitle">Take Aways</h2>
+        <h2 class="pTitle">Takeaways</h2>
 
         <h4>Business Value to Ford</h4>
         <div class="gallery-container">
