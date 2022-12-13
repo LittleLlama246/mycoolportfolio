@@ -60,13 +60,13 @@ const Iterative = () => {
         We choose a company and made an interactive flow to represent their idea. Emphasis was put on responding to user interactions and 
         creating a clear, constructive user flow.
       </p>
-      <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a onClick={() => home.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
-            <li class="nav"><a onClick={() => sketch.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Sketching & Wireframing</a></li>
-            <li class="nav"><a onClick={() => mock.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Mockups</a></li>
-            <li class="nav"><a onClick={() => critique.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>User Critique</a></li>
-            <li class="nav"><a onClick={() => test.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>User Testing</a></li>
-            <li class="nav"><a onClick={() => takeaway.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Takeaways</a></li>
+     <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#top">Home</a></li>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-1">Sketching & Wireframing</a></li>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-2">Mockups</a></li>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-3">User Critique</a></li>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-4">User Testing</a></li>
+            <li class="nav"><a href="/mycoolportfolio/#/iterative/#final">Take Aways</a></li>
       </div>
 
       <div id="intro">
