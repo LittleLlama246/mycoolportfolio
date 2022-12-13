@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-      <img src={namehere} alt="name/logo" height="70px" width="auto"/>
+      <Link to="/about"><img src={namehere} alt="name/logo" height="70px" width="auto"/></Link>
       </a>
       <button
         className="hamburger"
