@@ -14,7 +14,7 @@ import yawn from "./images/yawn.png"
 import tilt from "./images/tilt.png"
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import arrow from "./images/—Pngtree—vector forward icon_4184777.png";
+import arrow from "./images/right-arrow.png";
 
 const Ford = () => {
   const [ps, setPS ] = useState(false);
