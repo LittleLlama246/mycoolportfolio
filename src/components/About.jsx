@@ -13,7 +13,7 @@ const About = () => {
       <Navbar/>
       <div class="container">
         <div class="photos">
-          <img src={mehidden} alt="lauren in hawaii" width="600"/>
+          <Link to="/about"><img src={mehidden} alt="lauren in hawaii" width="600"/></Link>
         </div>
         <div class="text">
           <h1>Hey Y'all!</h1>
