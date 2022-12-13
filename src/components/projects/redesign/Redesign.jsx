@@ -29,6 +29,12 @@ import iphone3 from "./rrphotos/iphone3.png"
 
 const Redesign = () => {
   const [rr, setRR] = useState(false);
+  
+  var top = document.getElementById("top1");
+  var id = document.getElementById("part-1");
+  var vid = document.getElementById("part-2");
+  var res = document.getElementById("part-3");
+  var take = document.getElementById("part-4");
 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
@@ -47,11 +53,11 @@ const Redesign = () => {
       then created a redesign in html/css. I made designs compatible for a web browser, ipad and iphone screen size.
       </p>
       <div id={rr ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href={'#top'}>Home</a></li>
-            <li class="nav"><a href={'#part-1'}>Identifying Usability Problems</a></li>
-            <li class="nav"><a href={'#part-2'}>Visual Redesign</a></li>
-            <li class="nav"><a href={'#part-3'}> Responsive Redesign</a></li>
-            <li class="nav"><a href={'#part-4'}> Takeaways </a></li>
+            <li class="nav"><a onClick={() => top.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
+            <li class="nav"><a onClick={() => id.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Identifying Usability Problems</a></li>
+            <li class="nav"><a onClick={() => vid.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Visual Redesign</a></li>
+            <li class="nav"><a onClick={() => res.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Responsive Redesign</a></li>
+            <li class="nav"><a onClick={() => take.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Takeaways</a></li>
       </div>
 
       <div id="intro">
