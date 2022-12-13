@@ -4,9 +4,6 @@ import "../../../styles/project.css"
 
 import { useState, useEffect } from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-
 import travel_buddy from "./images/travel_buddy.png"
 import cm1 from "./images/CM1.png"
 import cm2 from "./images/CM2.png"
@@ -17,6 +14,7 @@ import yawn from "./images/yawn.png"
 import tilt from "./images/tilt.png"
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import arrow from "./images/—Pngtree—vector forward icon_4184777.png";
 
 const Ford = () => {
   const [ps, setPS ] = useState(false);
@@ -109,11 +107,11 @@ const Ford = () => {
           <div class="box1">
             <p class="textford">Get driver's video from the dashboard camera.</p>
           </div>
-          <FontAwesomeIcon icon={faArrowRight} size={'3x'} className="arrow"/>
+          <img src={arrow} size={'3x'} class="arrow"/>
           <div class="box1">
             <p class="textford">Extract and Analyze drivers facial features.</p>
           </div>
-          <FontAwesomeIcon icon={faArrowRight} size={'3x'} className="arrow"/>
+          <img src={arrow} size={'3x'} class="arrow"/>
           <div class="box1">
             <p class="textford">Detect if driver is fatigued.</p>
           </div>
