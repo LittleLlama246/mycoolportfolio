@@ -1,6 +1,7 @@
 import Navbar from "../../Navbar";
 import "../../../styles/project.css"
 import { useState, useEffect } from "react";
+import { HashLink } from 'react-router-hash-link';
 
 import wbold1 from "./rrphotos/wayland-bakery.png"
 import wbold2 from "./rrphotos/wb2.png"
@@ -44,6 +45,12 @@ const Redesign = () => {
       this.setState({class: 'fixedElement'})
     }
   };
+  
+  const componentDidMount = () => {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidMount();
 
   return (
     <div class="page">
@@ -53,11 +60,11 @@ const Redesign = () => {
       then created a redesign in html/css. I made designs compatible for a web browser, ipad and iphone screen size.
       </p>
       <div id={rr ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a onClick={() => top.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
-            <li class="nav"><a onClick={() => id.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Identifying Usability Problems</a></li>
-            <li class="nav"><a onClick={() => vid.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Visual Redesign</a></li>
-            <li class="nav"><a onClick={() => res.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Responsive Redesign</a></li>
-            <li class="nav"><a onClick={() => take.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Takeaways</a></li>
+            <li class="nav"><HashLink to="#top">Home</HashLink></li>
+            <li class="nav"><HashLink to="#part-1">Identifying Usability Problems</HashLink></li>
+            <li class="nav"><HashLink to="#part-2">Visual Redesign</HashLink></li>
+            <li class="nav"><HashLink to="#part-3"> Responsive Redesign</HashLink></li>
+            <li class="nav"><HashLink to="#part-4"> Takeaways </HashLink></li>
       </div>
 
       <div id="intro">
