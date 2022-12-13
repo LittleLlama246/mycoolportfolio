@@ -33,7 +33,7 @@ const Ford = () => {
       <p id="top2">During the Summer of 2022 I interned at Ford Motor Company. I was working on an individual project within the artificial intelligence/machine learning 
       team and wanted to meet other interns so I enrolled in the intern hackathon!</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><Link to="#top">Home</ink></li>
+            <li class="nav"><Link to="#top">Home</Link></li>
             <li class="nav"><Link to="#part-1">The Problem</Link></li>
             <li class="nav"><Link to="#part-2">Current Methods</Link></li>
             <li class="nav"><Link to="#part-3">Our Solution</Link></li>
