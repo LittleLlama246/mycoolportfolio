@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mycoolportfolio/static/css/main.9ae00bcd.css",
-    "main.js": "/mycoolportfolio/static/js/main.264c65b7.js",
+    "main.js": "/mycoolportfolio/static/js/main.96e90264.js",
     "static/media/travel_buddy.mp4": "/mycoolportfolio/static/media/travel_buddy.b6bc1e92dd6297425433.mp4",
     "static/media/Screen Recording 2022-11-05 at 2.12.47 PM.mov": "/mycoolportfolio/static/media/Screen Recording 2022-11-05 at 2.12.47 PM.42bcf2047c3f3a6e0dc3.mov",
     "static/media/wayland-bakery.png": "/mycoolportfolio/static/media/wayland-bakery.5ae8dd9cbc3f3ff563ae.png",
@@ -86,10 +86,10 @@
     "static/media/logo.svg": "/mycoolportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mycoolportfolio/index.html",
     "main.9ae00bcd.css.map": "/mycoolportfolio/static/css/main.9ae00bcd.css.map",
-    "main.264c65b7.js.map": "/mycoolportfolio/static/js/main.264c65b7.js.map"
+    "main.96e90264.js.map": "/mycoolportfolio/static/js/main.96e90264.js.map"
   },
   "entrypoints": [
     "static/css/main.9ae00bcd.css",
-    "static/js/main.264c65b7.js"
+    "static/js/main.96e90264.js"
   ]
 }
