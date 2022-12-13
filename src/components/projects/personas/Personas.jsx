@@ -1,6 +1,7 @@
 import Navbar from "../../Navbar";
 import "../../../styles/project.css"
 import { useState, useEffect } from "react";
+import { HashLink } from 'react-router-hash-link';
 
 //images 
 import mailroom from "./personasPhotos/mailroom.jpg";
@@ -36,7 +37,12 @@ const Personas = () => {
       this.setState({class: 'fixedElement'})
     }
   };
+  
+  const componentDidMount = () => {
+    window.scrollTo(0, 0);
+  }
 
+  componentDidMount();
 
   return (
     <div class="page">
@@ -44,12 +50,12 @@ const Personas = () => {
       <h1 id="top1">Personas & Storyboarding</h1>
       <p id="top2">The goal of this assignment was to step into a users shoes by observing users interacting with an interface, interviewing users about their experiences and illustrating a storyboard for one of my user personas.</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a onClick={() => home.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
-            <li class="nav"><a onClick={() => prep.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Preparation</a></li>
-            <li class="nav"><a onClick={() => obs.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Recording Observations</a></li>
-            <li class="nav"><a onClick={() => pers.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Personas</a></li>
-            <li class="nav"><a onClick={() => story.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Storyboards</a></li>
-            <li class="nav"><a onClick={() => take.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Takeaways</a></li>
+            <li class="nav"><HashLink to="#top">Home</HashLink></li>
+            <li class="nav"><HashLink to="#part-1">Preparation</HashLink></li>
+            <li class="nav"><HashLink to="#part-2">Recording Observations</HashLink></li>
+            <li class="nav"><HashLink to="#part-3">Personas</HashLink></li>
+            <li class="nav"><HashLink to="#part-4">Storyboards</HashLink></li>
+            <li class="nav"><HashLink to="#part-5">Takeaways</HashLink></li>
       </div>
 
       <div id="intro">
