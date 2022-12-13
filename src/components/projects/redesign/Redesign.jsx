@@ -47,11 +47,11 @@ const Redesign = () => {
       then created a redesign in html/css. I made designs compatible for a web browser, ipad and iphone screen size.
       </p>
       <div id={rr ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href={#top}>Home</a></li>
-            <li class="nav"><a href={#part-1}>Identifying Usability Problems</a></li>
-            <li class="nav"><a href={#part-2}>Visual Redesign</a></li>
-            <li class="nav"><a href={#part-3}> Responsive Redesign</a></li>
-            <li class="nav"><a href={#part-4}> Take Aways </a></li>
+            <li class="nav"><a href={'#top'}>Home</a></li>
+            <li class="nav"><a href={'#part-1'}>Identifying Usability Problems</a></li>
+            <li class="nav"><a href={'#part-2'}>Visual Redesign</a></li>
+            <li class="nav"><a href={'#part-3'}> Responsive Redesign</a></li>
+            <li class="nav"><a href={'#part-4'}> Take Aways </a></li>
       </div>
 
       <div id="intro">
