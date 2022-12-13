@@ -35,6 +35,13 @@ import cartnew from "./photos/CartNEW.png"
 
 const Iterative = () => {
   const [id, setID ] = useState(false);
+  
+  var home = document.getElementById("top1");
+  var sketch = document.getElementById("part-1");
+  var mock = document.getElementById("part-2");
+  var critique = document.getElementById("part-3");
+  var test = document.getElementById("part-4");
+  var takeaway = document.getElementById("final");
 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
@@ -54,12 +61,12 @@ const Iterative = () => {
         creating a clear, constructive user flow.
       </p>
       <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><Link to="#top">Home</Link></li>
-            <li class="nav"><Link to="#part-1">Sketching & Wireframing</Link></li>
-            <li class="nav"><Link to="#part-2">Mockups</Link></li>
-            <li class="nav"><Link to="#part-3">User Critique</Link></li>
-            <li class="nav"><Link to="#part-4">User Testing</Link></li>
-            <li class="nav"><Link to="#final">Takeaways</Link></li>
+            <li class="nav"><a onClick={() => home.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
+            <li class="nav"><a onClick={() => sketch.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Sketching & Wireframing</a></li>
+            <li class="nav"><a onClick={() => mock.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Mockups</a></li>
+            <li class="nav"><a onClick={() => critique.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>User Critique</a></li>
+            <li class="nav"><a onClick={() => test.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>User Testing</a></li>
+            <li class="nav"><a onClick={() => takeaway.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Takeaways</a></li>
       </div>
 
       <div id="intro">
