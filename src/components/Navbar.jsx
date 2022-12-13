@@ -29,13 +29,13 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/designWork">Design Work</a>
+            <a><Link to="/designWork">Design Work</Link></a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a><Link to="/about">About</Link></a>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <a><Link to="/resume">Resume</Link></a>
           </li>
         </ul>
       </div>
