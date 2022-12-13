@@ -42,7 +42,7 @@ const Personas = () => {
             <li class="nav"><a href="#part-2">Recording Observations</a></li>
             <li class="nav"><a href="#part-3">Personas</a></li>
             <li class="nav"><a href="#part-4">Storyboards</a></li>
-            <li class="nav"><a href="#final">Take Aways</a></li>
+            <li class="nav"><a href="#final">Takeaways</a></li>
       </div>
 
       <div id="intro">
@@ -167,7 +167,7 @@ const Personas = () => {
         </div>
       <div id="part-5">
         <br></br>
-        <h2 class="pTitle">Take Aways</h2>
+        <h2 class="pTitle">Takeaways</h2>
         <p class="ptexplanation">I really enjoyed this assignment. It made me aware of the many factors designers must take into account when designing an interface. Good interfaces should be seamless for the user and often take more effort to design than most would think. </p>
         <p class="ptexplanation">Furthermore, I choose a fun interface to review as many people I talked to were super passionate about the interface changes they suggested. I had several people ask if I could talk to the mail room staff and get these interface changes implemented.</p>
       </div>
