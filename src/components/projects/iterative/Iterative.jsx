@@ -67,12 +67,13 @@ const Iterative = () => {
         We choose a company and made an interactive flow to represent their idea. Emphasis was put on responding to user interactions and 
         creating a clear, constructive user flow.
       </p>
-     <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
+     <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
             <li class="nav"><HashLink to="#top">Home</HashLink></li>
-            <li class="nav"><HashLink to="#part-1">The Problem</HashLink></li>
-            <li class="nav"><HashLink to="#part-2">Current Methodologies</HashLink></li>
-            <li class="nav"><HashLink to="#part-3">Our Solution</HashLink></li>
-            <li class="nav"><HashLink to="#part-4">Takeaways</HashLink></li>
+            <li class="nav"><HashLink to="#part-1">Sketching & Wireframing</HashLink></li>
+            <li class="nav"><HashLink to="#part-2">Mockups</HashLink></li>
+            <li class="nav"><HashLink to="#part-3">User Critique</HashLink></li>
+            <li class="nav"><HashLink to="#part-4">User Testing</HashLink></li>
+            <li class="nav"><HashLink to="#final">Takeaways</HashLink></li>     
       </div>
 
       <div id="intro">
