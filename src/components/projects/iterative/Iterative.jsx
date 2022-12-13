@@ -36,13 +36,6 @@ import cartnew from "./photos/CartNEW.png"
 
 const Iterative = () => {
   const [id, setID ] = useState(false);
-  
-  var home = document.getElementById("top1");
-  var sketch = document.getElementById("part-1");
-  var mock = document.getElementById("part-2");
-  var critique = document.getElementById("part-3");
-  var test = document.getElementById("part-4");
-  var takeaway = document.getElementById("final");
 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
