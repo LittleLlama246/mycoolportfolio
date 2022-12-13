@@ -5,6 +5,8 @@ import laurenMcKeown from "../images/laurenmckeown.png"
 import { useState } from "react";
 import x from "../images/close.png"
 import namehere from "../images/namehere.png"
+import { Link } from "react-router-dom";
+
 
 
 export default function Navbar() {
