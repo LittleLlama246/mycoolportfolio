@@ -16,6 +16,12 @@ import { Link } from "react-router-dom";
 
 const Ford = () => {
   const [ps, setPS ] = useState(false);
+  
+  var top = document.getElementById("top1");
+  var problem = document.getElementById("part-1");
+  var currentmethods = document.getElementById("part-2");
+  var solution = document.getElementById("part-3");
+  var takeaways = document.getElementById("part-4");
 
   const handleNavigation = (e) => {
     const window = e.currentTarget;
@@ -33,11 +39,11 @@ const Ford = () => {
       <p id="top2">During the Summer of 2022 I interned at Ford Motor Company. I was working on an individual project within the artificial intelligence/machine learning 
       team and wanted to meet other interns so I enrolled in the intern hackathon!</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><Link to="#top">Home</Link></li>
-            <li class="nav"><Link to="#part-1">The Problem</Link></li>
-            <li class="nav"><Link to="#part-2">Current Methods</Link></li>
-            <li class="nav"><Link to="#part-3">Our Solution</Link></li>
-            <li class="nav"><Link to="#part-4">Takeaways</Link></li>
+            <li class="nav"><a onClick={() => top.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
+            <li class="nav"><a onClick={() => problem.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>The Problem</a></li>
+            <li class="nav"><a onClick={() => currentmethods.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Current Methods</a></li>
+            <li class="nav"><a onClick={() => solution.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Our Solution</a></li>
+            <li class="nav"><a onClick={() => takeaways.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Takeaways</a></li>
       </div>
 
       <div id="overview">
