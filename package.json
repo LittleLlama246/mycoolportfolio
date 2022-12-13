@@ -8,6 +8,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-router-dom": "^6.4.5", 
+    "react-router-hash-link": "^2.4.3",
     "bootstrap": "^5.2.3",
     "font-awesome": "^4.7.0",
     "react-bootstrap": "^2.7.0",
