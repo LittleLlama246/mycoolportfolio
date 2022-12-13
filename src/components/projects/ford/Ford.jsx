@@ -107,11 +107,11 @@ const Ford = () => {
           <div class="box1">
             <p class="textford">Get driver's video from the dashboard camera.</p>
           </div>
-          <img src={arrow} width="640" height="640" class="arrow"/>
+          <img src={arrow} width={"48px"} height={"48px"} class="arrow"/>
           <div class="box1">
             <p class="textford">Extract and Analyze drivers facial features.</p>
           </div>
-          <img src={arrow} width="640" height="640" class="arrow"/>
+          <img src={arrow} width={"48px"} height={"48px"} class="arrow"/>
           <div class="box1">
             <p class="textford">Detect if driver is fatigued.</p>
           </div>
