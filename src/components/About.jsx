@@ -38,8 +38,8 @@ const About = () => {
             <h2>Let's Chat</h2>
             <div class="contect">
 
-            <a href="mailto:lauren_mckeown@brown.edu" target="_blank" aria-label="lauren_mckeown@brown.edu"><img src={email} alt="email-icon"height={52}/></a>
-            <a href="https://www.linkedin.com/in/lauren-mckeown/" target="_blank" aria-label="https://www.linkedin.com/in/lauren-mckeown/"><img src={linkedin} alt="linkedin-icon" height={52}/></a>
+            <a href="mailto:LittleLlama246@brown.edu" target="_blank" aria-label="LittleLlama246@brown.edu"><img src={email} alt="email-icon"height={52}/></a>
+            <a href="https://www.instagram.com/alpacaloversinsta/?igshid=YTY2NzY3YTc%3D" target="_blank" aria-label="https://www.instagram.com/alpacaloversinsta/?igshid=YTY2NzY3YTc%3D"><img src={linkedin} alt="linkedin-icon" height={52}/></a>
 
             </div>
             
