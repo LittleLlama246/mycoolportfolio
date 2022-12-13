@@ -1,0 +1,270 @@
+/*general*/
+
+.page{
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.image{
+  margin-bottom: 2rem;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  /* width: 33.33%; */
+  padding: 20px;
+}
+
+#grey{
+  background-color: #f5f5f5;
+}
+
+.arrow{
+  margin-top: 4rem;
+  padding: 1rem;
+  color:rgb(46, 46, 95)
+}
+
+.circle {
+  display: flex;
+  width: 330px;
+  height: 330px;
+  background-color: rgb(46, 46, 95);
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.box1{
+  display: flex;
+  width: 240px;
+  height: 200px;
+  background-color: rgb(46, 46, 95);
+  border-radius: 10%;
+  margin: 5px;
+}
+
+.textford {
+  margin: auto;
+  color: #f5f5f5;
+  padding: 1rem;
+}
+
+.img-row{
+  /* margin: 10px; */
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fixedElement {
+  background-color: #c0c0c0;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
+/* project header and description */
+#top1{
+  font-size: 4rem;
+  margin-top: 5rem; 
+}
+
+#top2{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2rem;
+}
+
+/*Project nav bar */
+.nav{
+  font-family: 'Title';
+  list-style: none;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 4rem;
+}
+
+#stickymenu {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #eeeded;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  /* box-shadow: 0 2px 4px 0 rgba(240, 128, 128, 0.404); */
+  color: #fff;
+  margin-bottom: 4rem;
+  z-index: 1000 !important;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  font-weight: 900;
+  font-size: large;
+}
+
+/*styles for project parts*/
+/*background color*/
+#part-1, #part-3, #end, #part-5{
+  background-color: #f5f5f5;
+}
+
+#part-2, #part-4{
+  background-color: white;
+}
+
+.red{
+  font-family: 'Paragraph';
+  background-color: rgba(240, 128, 128, 0.404);
+  margin-left: 17%;
+  margin-right: 15%; 
+  padding: .25rem;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
+
+}
+.red h3{
+  margin-left: 1rem;
+}
+
+.small{
+  font-size: medium;
+}
+
+.ford-blue{
+  font-family: 'Paragraph';
+  background-color: rgba(151, 182, 235, 0.404);
+  margin-left: 17%;
+  margin-right: 15%; 
+  padding: .05rem;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  border-radius: 5px;
+}
+
+.ford-blue h4{
+  text-align: center;
+}
+
+.ford-blue h3{
+  margin-left: 1rem;
+    margin-top: 0;
+
+}
+
+/*text*/
+.pTitle{
+  text-align: left;
+  margin-left: 17%;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Title';
+  font-size: 1.2rem;
+  text-align: left;
+  /* margin-left: 17%;
+  margin-right: 15%; */
+}
+
+h4{
+  font-family: 'Title';
+  font-size: 1.5rem;
+}
+
+ul, ol{
+  /* margin-left: 17%;
+  margin-right: 15%; */
+  text-align: left;
+}
+
+p{
+  margin-left: 17%;
+  margin-right: 15%;
+}
+
+li{
+  margin: 10px 0;
+}
+
+.ptexplanation{
+  margin-left: 17%;
+  margin-right: 15%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+
+

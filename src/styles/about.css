@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.photos{
+  width: 40%;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  justify-content: center;
+}
+
+.text{
+  width: 60%;
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.des{
+  margin-left: 0;
+}
