@@ -1,6 +1,7 @@
 import Navbar from "../../Navbar";
 import "../../../styles/project.css"
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import fc from "./photos/Screen Shot 2022-11-05 at 11.51.59 AM.png"
 import one1 from "./photos/sketch1-1.jpg"
@@ -53,12 +54,12 @@ const Iterative = () => {
         creating a clear, constructive user flow.
       </p>
       <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href="#top">Home</a></li>
-            <li class="nav"><a href="#part-1">Sketching & Wireframing</a></li>
-            <li class="nav"><a href="#part-2">Mockups</a></li>
-            <li class="nav"><a href="#part-3">User Critique</a></li>
-            <li class="nav"><a href="#part-4">User Testing</a></li>
-            <li class="nav"><a href="#final">Take Aways</a></li>
+            <li class="nav"><Link to="#top">Home</Link></li>
+            <li class="nav"><Link to="#part-1">Sketching & Wireframing</Link></li>
+            <li class="nav"><Link to="#part-2">Mockups</Link></li>
+            <li class="nav"><Link to="#part-3">User Critique</Link></li>
+            <li class="nav"><Link to="#part-4">User Testing</Link></li>
+            <li class="nav"><Link to="#final">Take Aways</Link></li>
       </div>
 
       <div id="intro">
