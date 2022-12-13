@@ -59,7 +59,7 @@ const Iterative = () => {
             <li class="nav"><Link to="#part-2">Mockups</Link></li>
             <li class="nav"><Link to="#part-3">User Critique</Link></li>
             <li class="nav"><Link to="#part-4">User Testing</Link></li>
-            <li class="nav"><Link to="#final">Take Aways</Link></li>
+            <li class="nav"><Link to="#final">Takeaways</Link></li>
       </div>
 
       <div id="intro">
@@ -323,7 +323,7 @@ const Iterative = () => {
       </div>
 
       <div id="final">
-        <h1 class="pTitle">Take Aways</h1>
+        <h1 class="pTitle">Takeaways</h1>
         <p class="ptexplanation">I enjoyed the group aspect of this project. Everyone has such a unique design preference, so it was intreating to work with others to create one final design with all of our design ideas integrated. My biggest take away form this project is the importance of doing design reviews. Each user testing secession gave us several great ideas on how to help us improve our designs, helping us launch a better product for the users.   </p>
       </div>
 
