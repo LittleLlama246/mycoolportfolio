@@ -31,10 +31,10 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a><Link to="/designWork">Design Work</Link></a>
+            <a><Link to="/about">About</Link></a>
           </li>
           <li>
-            <a><Link to="/about">About</Link></a>
+            <a><Link to="/designWork">Design Work</Link></a>
           </li>
           <li>
             <a><Link to="/resume">Resume</Link></a>
