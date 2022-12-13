@@ -2,6 +2,7 @@ import Navbar from "../../Navbar";
 import "../../../styles/project.css"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 import fc from "./photos/Screen Shot 2022-11-05 at 11.51.59 AM.png"
 import one1 from "./photos/sketch1-1.jpg"
@@ -51,6 +52,12 @@ const Iterative = () => {
       this.setState({class: 'fixedElement'})
     }
   };
+  
+  const componentDidMount = () => {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidMount();
 
   return (
     <div class="page">
@@ -60,13 +67,12 @@ const Iterative = () => {
         We choose a company and made an interactive flow to represent their idea. Emphasis was put on responding to user interactions and 
         creating a clear, constructive user flow.
       </p>
-     <div id={id ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#top">Home</a></li>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-1">Sketching & Wireframing</a></li>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-2">Mockups</a></li>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-3">User Critique</a></li>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#part-4">User Testing</a></li>
-            <li class="nav"><a href="/mycoolportfolio/#/iterative/#final">Take Aways</a></li>
+     <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
+            <li class="nav"><HashLink to="#top">Home</HashLink></li>
+            <li class="nav"><HashLink to="#part-1">The Problem</HashLink></li>
+            <li class="nav"><HashLink to="#part-2">Current Methodologies</HashLink></li>
+            <li class="nav"><HashLink to="#part-3">Our Solution</HashLink></li>
+            <li class="nav"><HashLink to="#part-4">Takeaways</HashLink></li>
       </div>
 
       <div id="intro">
