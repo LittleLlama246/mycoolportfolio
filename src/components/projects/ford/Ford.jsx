@@ -12,6 +12,7 @@ import vid from "./images/travel_buddy.mp4"
 import eyealg from "./images/eyealg.png"
 import yawn from "./images/yawn.png"
 import tilt from "./images/tilt.png"
+import { Link } from "react-router-dom";
 
 const Ford = () => {
   const [ps, setPS ] = useState(false);
@@ -32,11 +33,11 @@ const Ford = () => {
       <p id="top2">During the Summer of 2022 I interned at Ford Motor Company. I was working on an individual project within the artificial intelligence/machine learning 
       team and wanted to meet other interns so I enrolled in the intern hackathon!</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a href="#top">Home</a></li>
-            <li class="nav"><a href="#part-1">The Problem</a></li>
-            <li class="nav"><a href="#part-2">Current Methods</a></li>
-            <li class="nav"><a href="#part-3">Our Solution</a></li>
-            <li class="nav"><a href="#part-4">Take Aways</a></li>
+            <li class="nav"><Link to="#top">Home</ink></li>
+            <li class="nav"><Link to="#part-1">The Problem</Link></li>
+            <li class="nav"><Link to="#part-2">Current Methods</Link></li>
+            <li class="nav"><Link to="#part-3">Our Solution</Link></li>
+            <li class="nav"><Link to="#part-4">Take Aways</Link></li>
       </div>
 
       <div id="overview">
