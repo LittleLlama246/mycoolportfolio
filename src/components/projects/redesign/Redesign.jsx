@@ -51,7 +51,7 @@ const Redesign = () => {
             <li class="nav"><a href={'#part-1'}>Identifying Usability Problems</a></li>
             <li class="nav"><a href={'#part-2'}>Visual Redesign</a></li>
             <li class="nav"><a href={'#part-3'}> Responsive Redesign</a></li>
-            <li class="nav"><a href={'#part-4'}> Take Aways </a></li>
+            <li class="nav"><a href={'#part-4'}> Takeaways </a></li>
       </div>
 
       <div id="intro">
@@ -223,7 +223,7 @@ const Redesign = () => {
 
       <div id="part-4">
         <br></br>
-        <h2 class="pTitle">Take Aways</h2>
+        <h2 class="pTitle">Takeaways</h2>
         <p class="ptexplanation"> Overall, this project gave me some great experience with full scale web design. I found the planning portion - finding issues, and creating sketches and the style guide - to be the most time consuming part of the assignment; however, I found that this made the coding 
         MUCH easier in the end.</p>
       </div>
