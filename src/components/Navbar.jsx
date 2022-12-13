@@ -4,7 +4,7 @@ import hamburger from "../images/hamburger.png"
 import { useState } from "react";
 import x from "../images/close.png"
 import namehere from "../images/namehere.png"
-import llama from "../images/llama.png"
+import LittleLlama from "../images/littleLlama.png"
 import { Link } from "react-router-dom";
 
 
@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-      <Link to="/about"><img src={llama} alt="name/logo" height="70px" width="auto"/></Link>
+      <Link to="/about"><img src={LittleLlama} alt="name/logo" height="70px" width="auto"/></Link>
       </a>
       <button
         className="hamburger"
