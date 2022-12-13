@@ -13,6 +13,7 @@ import eyealg from "./images/eyealg.png"
 import yawn from "./images/yawn.png"
 import tilt from "./images/tilt.png"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Ford = () => {
   const [ps, setPS ] = useState(false);
@@ -31,6 +32,12 @@ const Ford = () => {
       this.setState({class: 'fixedElement'})
     }
   };
+  
+  const componentDidMount = () => {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidMount();
 
   return (
     <div class="page">
@@ -39,11 +46,11 @@ const Ford = () => {
       <p id="top2">During the Summer of 2022 I interned at Ford Motor Company. I was working on an individual project within the artificial intelligence/machine learning 
       team and wanted to meet other interns so I enrolled in the intern hackathon!</p>
       <div id={ps ? "menu" : "stickymenu"} onScroll={handleNavigation}>
-            <li class="nav"><a onClick={() => top.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}>Home</a></li>
-            <li class="nav"><a onClick={() => problem.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>The Problem</a></li>
-            <li class="nav"><a onClick={() => currentmethods.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Current Methods</a></li>
-            <li class="nav"><a onClick={() => solution.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Our Solution</a></li>
-            <li class="nav"><a onClick={() => takeaways.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'})}>Takeaways</a></li>
+            <li class="nav"><HashLink to="#top">Home</HashLink></li>
+            <li class="nav"><HashLink to="#part-1">The Problem</HashLink></li>
+            <li class="nav"><HashLink to="#part-2">Current Methodologies</HashLink></li>
+            <li class="nav"><HashLink to="#part-3">Our Solution</HashLink></li>
+            <li class="nav"><HashLink to="#part-4">Takeaways</HashLink></li>
       </div>
 
       <div id="overview">
