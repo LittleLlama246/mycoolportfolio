@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mycoolportfolio/static/css/main.9ae00bcd.css",
-    "main.js": "/mycoolportfolio/static/js/main.7690594c.js",
+    "main.js": "/mycoolportfolio/static/js/main.9a67ab7e.js",
     "static/media/travel_buddy.mp4": "/mycoolportfolio/static/media/travel_buddy.b6bc1e92dd6297425433.mp4",
     "static/media/Screen Recording 2022-11-05 at 2.12.47 PM.mov": "/mycoolportfolio/static/media/Screen Recording 2022-11-05 at 2.12.47 PM.42bcf2047c3f3a6e0dc3.mov",
     "static/media/wayland-bakery.png": "/mycoolportfolio/static/media/wayland-bakery.5ae8dd9cbc3f3ff563ae.png",
@@ -14,6 +14,7 @@
     "static/media/web2.png": "/mycoolportfolio/static/media/web2.8660076c2ce7f522196c.png",
     "static/media/HF2.jpg": "/mycoolportfolio/static/media/HF2.ef3bba316a5f7d832dd1.jpg",
     "static/media/interfcaceS1.jpg": "/mycoolportfolio/static/media/interfcaceS1.b2c46d37be28fb8bc65e.jpg",
+    "static/media/llama.png": "/mycoolportfolio/static/media/llama.7ce7dba88ab566b5f507.png",
     "static/media/wb-3.png": "/mycoolportfolio/static/media/wb-3.f4dd3cb09e83b16856e3.png",
     "static/media/havepackages.jpg": "/mycoolportfolio/static/media/havepackages.b568e7f43c5f775f08e1.jpg",
     "static/media/IMG_0026.jpg": "/mycoolportfolio/static/media/IMG_0026.9db15d837f34447d157a.jpg",
@@ -84,10 +85,10 @@
     "static/media/logo.svg": "/mycoolportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mycoolportfolio/index.html",
     "main.9ae00bcd.css.map": "/mycoolportfolio/static/css/main.9ae00bcd.css.map",
-    "main.7690594c.js.map": "/mycoolportfolio/static/js/main.7690594c.js.map"
+    "main.9a67ab7e.js.map": "/mycoolportfolio/static/js/main.9a67ab7e.js.map"
   },
   "entrypoints": [
     "static/css/main.9ae00bcd.css",
-    "static/js/main.7690594c.js"
+    "static/js/main.9a67ab7e.js"
   ]
 }
