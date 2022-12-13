@@ -22,13 +22,6 @@ import sb5 from "./personasPhotos/personaspt5.jpg"
 const Personas = () => {
   const [ps, setPS ] = useState(false);
   
-  var home = document.getElementById("top1");
-  var prep = document.getElementById("part-1");
-  var obs = document.getElementById("part-2");
-  var pers = document.getElementById("part-3");
-  var story = document.getElementById("part-4");  
-  var take = document.getElementById("part-5");
-
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (window.scrollY <= 420) {
