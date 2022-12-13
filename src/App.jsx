@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route, Navigate,} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate,} from "react-router-dom";
 
 //main pages
 import About from './components/About';
@@ -20,7 +20,7 @@ function App() {
      {/* <Navbar/> */}
      <Router>
                 <Routes>
-                    <Route path="/" element={<About/>} />
+                    <Route path="/mycoolportfolio" element={<About/>} />
                     <Route path="/designWork" element={<DesignWork/>} />
                     <Route path="/resume" element={<Resume/>} />
 
